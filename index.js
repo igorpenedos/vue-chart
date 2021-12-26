@@ -1,4 +1,5 @@
 import Test from './src/components/Test.vue'
+import PieChartComponent from './src/components/PieChart.vue'
 
 // Declare install function executed by Vue.use()
 export function install(Vue) {
@@ -29,3 +30,5 @@ export const TestMsg = function(){
 };
 
 export const TestComponent = Test;
+
+export const PieChart = PieChartComponent; 
